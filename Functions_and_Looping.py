@@ -1,7 +1,7 @@
 praise = "You are doing great"
 praise = praise.upper()
 number_of_characters = len(praise)
-result = praise + "!" * number_of_characters
+result = praise + "!" * (number_of_characters // 2)
 print(result)
 
 advice = "Don't forget to ask for help"
